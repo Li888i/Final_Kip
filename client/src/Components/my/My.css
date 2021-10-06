@@ -1,0 +1,38 @@
+/* 검색바 */
+.search-bar {
+  position: absolute;
+  width: 13.5vw;
+  height: 2vw;
+  /* margin-left: 24.5vw; */
+  border-radius: 5px 5px 5px 5px;
+  border: solid 1px rgb(252, 240, 131);
+  margin-left: 64vw;
+}
+/* 검색 아이콘 */
+.s-icon {
+  font-size: 2.5vw;
+  position: absolute;
+  margin-left: 75.5vw;
+  margin-top: 5.5vw;
+
+  /* background-color: blue; */
+}
+
+.button {
+  position: absolute;
+  margin-left: 78vw;
+  width: 4vw;
+  height: 2vw;
+  background-color: rgb(252, 252, 183);
+  border: 0;
+}
+
+.review {
+  width: 29vw;
+  height: 10vw;
+  float: right;
+  margin-right: 6.5vw;
+  margin-top: -10vw;
+  background-color: rgb(233, 233, 233);
+  border-radius: 40px 40px 40px 40px;
+}

@@ -1,0 +1,13 @@
+.book {
+  width: 10vw;
+  height: 3vw;
+  line-height: 3vw;
+  padding-top: 0.2vw;
+  /* margin-top: vw; */
+  margin-left: 2vw;
+  text-align: center;
+  border-radius: 35px;
+  position: absolute;
+  color: azure;
+  background-color: rgb(250, 215, 59);
+}

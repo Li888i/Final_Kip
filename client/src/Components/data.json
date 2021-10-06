@@ -1,0 +1,99 @@
+{
+    "popular": [
+      {
+        "title": "영어강의",
+        "url": "https://i.ibb.co/jrZHydq/image.png?d=320x320",
+        "active_masters": 53234
+      },
+      {
+        "title": "수학강의",
+        "url": "https://i.ibb.co/GkkX7QF/image.png?d=320x320",
+        "active_masters": 21256
+      },
+      {
+        "title": "국어강의",
+        "url": "https://i.ibb.co/yWSh1Cv/image.png?d=320x320",
+        "active_masters": 18355
+      },
+      {
+        "title": "한국사강의",
+        "url": "https://i.ibb.co/Kq6QCQ8/image.png?d=320x320",
+        "active_masters": 53234
+      },
+      {
+        "title": "코딩강의",
+        "url": "https://i.ibb.co/CKRWWhZ/image.png?d=320x320",
+        "active_masters": 21256
+      },
+      {
+        "title": "사회강의",
+        "url": "https://i.ibb.co/m88wkP6/image.png?d=320x320",
+        "active_masters": 18355
+      }
+    ],
+  
+    "local_masters": [
+      {
+        "imageUri": "https://t1.daumcdn.net/liveboard/gilbut/f96c311166f7472c98980aeaff975d05.JPG",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 4,
+        "review": 4,
+        "hired": 3
+      },
+      {
+        "imageUri": "https://t1.daumcdn.net/liveboard/gilbut/57eb907b2f474d38a7290c89f248a7af.JPG",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 4,
+        "review": 12,
+        "hired": 3
+      },
+      {
+        "imageUri": "https://img.animalplanet.co.kr/news/2019/12/08/700/96d95gmjh3qd8am9g65g.jpg",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 5,
+        "review": 12,
+        "hired": 15
+      },
+      {
+        "imageUri": "https://t1.daumcdn.net/cfile/tistory/99266F395CDE2D9332",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 4,
+        "review": 4,
+        "hired": 3
+      },
+      {
+        "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlE4nyrJxL0KARR5Uq3yxoW9bAr7Imr16RrHvaK3bQAP5Ek7Vavxm8W_7ZFYhZ-QO5P20&usqp=CAU",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 4,
+        "review": 12,
+        "hired": 3
+      },
+      {
+        "imageUri": "https://i1.wp.com/subin.kim/wp-content/uploads/2014/11/download.png?fit=255%2C197&ssl=1",
+        "title": "국어 때려잡기",
+        "address": "A강사",
+        "score": 5,
+        "review": 12,
+        "hired": 15
+      }
+    ],
+    "magazine": [
+      {
+        "imageUri": "data:image/jpeg;base64,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",
+        "title": "국어가 외않되?"
+      },
+      {
+        "imageUri": "https://i.ytimg.com/vi/szf76slionQ/maxresdefault.jpg",
+        "title": "야! 너도 수학 풀 수 있어~"
+      },
+      {
+        "imageUri": "https://i.ytimg.com/vi/PVr5KTblSDs/maxresdefault.jpg",
+        "title": "1시간만에(?) 제대로 배우는 영어"
+      }
+    ]
+  }

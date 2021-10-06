@@ -1,0 +1,75 @@
+/* 헤더 영역 */
+.app-header {
+  height: 15vw;
+  border-bottom: 3.5px solid #9bcee5;
+  background-color: #ffffff;
+}
+
+/* 로고 이미지 */
+img.Logo {
+  width: 10vw;
+  height: 10vw;
+  margin-left: 10vw;
+  margin-top: 0.3vw;
+  position: absolute;
+}
+
+/* 검색 박스
+.s-mom {
+  width: 50vw;
+  height: 4vw;
+  position: absolute;
+  margin-left: 24vw;
+  margin-top: 5vw;
+  /* background-color: burlywood; 
+  background-color: blue;
+} */
+
+/* 검색바 */
+.s-bar {
+  width: 35vw;
+  height: 3vw;
+  position: absolute;
+  margin-left: 25.5vw;
+  margin-top: 4vw;
+  border-radius: 40px 40px 40px 40px;
+  border: solid 4px#9bcee5;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* 아이콘 박스 */
+.i-mom {
+  width: 22vw;
+  margin-top: 4.5vw;
+  position: relative;
+  margin-right: 9vw;
+  float: right;
+}
+
+/* 아이콘 객체 */
+.i-baby {
+  margin-left: 1.5vw;
+  display: inline-block;
+  text-align: center;
+}
+.i-icon {
+  font-size: 2vw;
+}
+.i-text {
+  font-size: 0.7vw;
+}
+.s {
+  font-size: 2vw;
+  color: #9bcee5;
+  margin-top: 4.5vw;
+  margin-left: 62vw;
+}
+
+/* 데코 없애기*/
+a {
+  text-decoration: none;
+  color: inherit;
+}

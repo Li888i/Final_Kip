@@ -1,0 +1,102 @@
+.app-body {
+  width: 90vw;
+  height: 80vw;
+  float: right;
+  /* background-color: #fff34f; */
+}
+
+.A {
+  width: 75vw;
+  height: 12vw;
+  padding: 2vw;
+  margin: 2vw 0 0 5vw;
+  position: relative;
+  /* border: 1.5px solid rgb(253, 234, 61); */
+  background-color: rgb(253, 250, 231);
+}
+.b {
+  width: 20vw;
+  position: absolute;
+}
+
+.c1 {
+  width: 7vw;
+  line-height: 2.3vw;
+  padding-top: 0.2vw;
+  margin-top: -4.5vw;
+  margin-left: 20vw;
+  text-align: center;
+  border-radius: 40px;
+  position: absolute;
+  color: azure;
+  background-color: rgb(250, 215, 59);
+}
+.c2 {
+  width: 7vw;
+  line-height: 2.3vw;
+  padding-top: 0.2vw;
+  margin-top: -3vw;
+  margin-left: 17vw;
+  text-align: center;
+  border-radius: 40px;
+  position: absolute;
+  color: azure;
+  background-color: rgb(250, 215, 59);
+}
+
+.text1 {
+  width: 22vw;
+  position: absolute;
+  margin: -7.5vw 0 0 13vw;
+}
+
+.text2 {
+  width: 22vw;
+  position: absolute;
+  margin: -6vw 0 0 13vw;
+}
+
+.m1 {
+  position: absolute;
+  margin: 3vw 0 0 5vw;
+}
+.m11 {
+  width: 12vw;
+  border: 1px gray;
+}
+
+.m2 {
+  padding: 2vw;
+  position: absolute;
+  margin: 2vw 0 0 42vw;
+}
+.online {
+  width: 50vw;
+  margin: 3vw 0 0 20vw;
+}
+
+.info {
+  margin: 2vw 0 0 8vw;
+}
+.teacher1 {
+  width: 14vw;
+  padding-left: 2vw;
+  padding-right: 3vw;
+}
+
+.teacher2 {
+  width: 14vw;
+  padding-right: 3vw;
+}
+.teacher3 {
+  width: 14vw;
+  padding-right: 3vw;
+}
+.teacher4 {
+  width: 14vw;
+  height: 18.5vw;
+  padding-right: 2vw;
+}
+.icon {
+  margin-bottom: 10%;
+}
