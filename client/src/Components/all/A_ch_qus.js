@@ -17,7 +17,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 import { useEffect } from 'react'
 
-import './markerData';
+
 
 const { kakao } = window;
 
@@ -39,14 +39,12 @@ const A_ch_qus = (props) => {
       <div className='A_ch_qus_'>
         <div className='intro_card'>
           <Card className='cardContent' sx={{ width: 735 }}>
-
             {/* <CardMedia
               component="img"
               height="450"
               image="https://images.chosun.com/resizer/ynIYRm82UlrMWf7Hg_2rIEV0Og8=/600x498/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/ADOM24EME5HWHGLN4HN4GGWNHI.jpg"
               alt="위치"
             /> */}
-
             <CardMedia height="450">
               <div id='myMap' style={{
                 width: '735px',
