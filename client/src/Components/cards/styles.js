@@ -1,9 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
-//   title:{
-//     marginTop: "10%",
-//   },
   boxContainer: {
     margin: "0 auto",
     marginTop: "3%",

@@ -105,8 +105,6 @@ const Help = () => {
       <Button variant="outlined" color="primary" onClick={handleClickOpen}>
         이메일 선택
       </Button> 
-      
-      
       <SimpleDialog selectedValue={selectedValue} open={open} onClose={handleClose} />
 
       <br></br>
@@ -123,8 +121,6 @@ const Help = () => {
         ) : null}
       </div>
       <div className={classes.alert} ref={container} />
-
-
     </div>
   );
 };

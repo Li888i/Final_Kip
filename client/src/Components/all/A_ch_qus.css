@@ -1,0 +1,54 @@
+/* .gtAJet{
+    background-color: #fffaf9;
+} */
+
+.A_ch_box{
+    background-color: #eef0ef;
+    margin-right: 10%;
+}
+
+/* #f0e4d8 
+#566878
+*/
+/* .A_ch_qus_{
+    background-color: #f5f5fc;
+    margin-right: 10%;
+    height: 50%;
+} */
+
+
+.cardContent{
+    margin-left: 15%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.intro_timeline{
+    /* float: none; */
+    margin-left: 36%;
+}
+
+.intro_timeline_div{
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
+.intro_card{
+    display: flex;
+    margin-top: 4%;
+}
+
+/* .kip{
+
+} */
+
+.kip_good{
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 90%;
+    border: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 160px;
+}
