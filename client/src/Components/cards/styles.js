@@ -4,7 +4,7 @@ const useStyles = makeStyles({
   boxContainer: {
     margin: "0 auto",
     marginTop: "3%",
-    marginRight: "12%",
+    marginRight: "22%",
     maxWidth: 1155,
     height: 300,
     padding: 25,
