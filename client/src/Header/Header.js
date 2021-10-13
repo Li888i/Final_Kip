@@ -14,6 +14,17 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 
+import { makeStyles } from '@material-ui/core/styles';
+import { Box } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  btnBox: {
+    display: 'flex',
+    flex: '1',
+    justifyContent: 'flex-end',
+  }
+}));
+
 
 const Header = () => {
   /*마이페이지 메뉴바*/
@@ -27,8 +38,17 @@ const Header = () => {
     setAnchorEl(null);
   };
 
+  const classes = useStyles();
+  
+
   return (
     <div className='app-header'>
+
+      <Box className={classes.btnBox}>
+        <Link to='/join'><Button>회원가입</Button></Link>
+        <Link to='/login'><Button>로그인</Button></Link>
+      </Box>
+
       <div className='MOM'>
         <div className='BABY1'>
           <Link to='/'>
@@ -42,13 +62,13 @@ const Header = () => {
             placeholder='      Search'
           ></input>
         </div>
-            <FontAwesomeIcon className='s' icon={faSearch} />
+        <FontAwesomeIcon className='s' icon={faSearch} />
         <div className='i-mom'>
           {/* <Link to="/mypage"> */}
           <div className='i-baby'>
             <FontAwesomeIcon className='i-icon' icon={faUserEdit} />
             <div>
-            <p className='i-text'
+              <p className='i-text'
                 aria-controls='simple-menu'
                 aria-haspopup='true'
                 onClick={handleClick}
