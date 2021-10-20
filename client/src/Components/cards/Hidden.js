@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   boxContainer: {
     marginTop: "2%",
     margin: "0 auto",
-    marginRight: "27%",
+    marginRight: "23%",
     position: "relative",
     maxWidth: 1155,
     height: 300,

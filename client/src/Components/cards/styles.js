@@ -4,15 +4,15 @@ const useStyles = makeStyles({
   boxContainer: {
     margin: "0 auto",
     marginTop: "3%",
-    marginRight: "26%",
+    marginRight: "22%",
     maxWidth: 1155,
     height: 300,
     padding: 25,
     textAlign: "left"
   },
   card: {
-    maxWidth: 320,
-    height: 240,
+    maxWidth: 340,
+    height: 260,
     margin: 3,
     marginRight: 10
   },

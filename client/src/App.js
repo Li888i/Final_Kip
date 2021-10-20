@@ -6,6 +6,7 @@ import Aside from "./Aside/Aside";
 
 import MainPage from "./pages/MainPage";
 import LoginPage from "./pages/LoginPage";
+import JoinPage from "./pages/JoinPage";
 import MyPagePage from "./pages/MyPagePage";
 import PlayListPage from "./pages/PlayListPage";
 import AllPage from "./pages/AllPage";
@@ -48,6 +49,7 @@ const App = () => {
       <Route path='/' exact={true} component={MainPage} />
       <StyledAppDiv>
         <Route path='/login' exact={true} component={LoginPage} />
+        <Route path='/join' exact={true} component={JoinPage} />
         <Route path='/mypage' exact={true} component={MyPagePage} />
         <Route path='/playlist' exact={true} component={PlayListPage} />
         <Route path='/all' exact={true} component={AllPage} />

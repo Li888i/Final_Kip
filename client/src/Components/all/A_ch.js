@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     "& > * + *": {
-      marginLeft: theme.spacing(27),
+      marginLeft: theme.spacing(25),
     },
   },
 }));
@@ -125,7 +125,7 @@ const A_ch = (props) => {
           style={{
             display: "flex",
             justifyContent: "flex-end",
-            paddingRight: "10%",
+            paddingRight: "23%",
           }}
         >
           <Checkbox
@@ -163,23 +163,23 @@ const A_ch = (props) => {
             marginTop: "3%",
             marginRight: "30%",
           }}
-          variant='h5'
+          variant='h6'
         >
           <br></br>
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/48Yn1Fg/image.png'
           />
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/31t9zh4/2.png'
           />
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/JkfxQy1/3.png'
@@ -261,10 +261,10 @@ const A_ch = (props) => {
           </Fab>
           <br></br>
           <div style={{ marginLeft: "7.5%" }} className={classes.root}>
-            <CircularProgressWithLabel size={60} value={progress} />
-            <CircularProgressWithLabel size={60} value={progress} />
-            <CircularProgressWithLabel size={60} value={progress_2} />
-            <CircularProgressWithLabel size={60} value={progress_3} />
+            <CircularProgressWithLabel size={40} value={progress} />
+            <CircularProgressWithLabel size={40} value={progress} />
+            <CircularProgressWithLabel size={40} value={progress_2} />
+            <CircularProgressWithLabel size={40} value={progress_3} />
           </div>
         </Typography>
       </Container>
@@ -279,23 +279,23 @@ const A_ch = (props) => {
             marginTop: "3%",
             marginRight: "30%",
           }}
-          variant='h5'
+          variant='h6'
         >
           <br></br>
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/Gs5gZSf/English-lecture1.jpg'
           />
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/hYjdQw8/English-lecture2.jpg'
           />
           <img
-            style={{ marginRight: "8%" }}
+            style={{ marginRight: "5%" }}
             width='180'
             height='140'
             src='https://i.ibb.co/g3MH578/English-lecture3.jpg'
@@ -381,10 +381,10 @@ const A_ch = (props) => {
           </Fab>
           <br></br>
           <div style={{ marginLeft: "7.5%" }} className={classes.root}>
-            <CircularProgressWithLabel size={60} value={progress_2} />
-            <CircularProgressWithLabel size={60} value={progress_3} />
-            <CircularProgressWithLabel size={60} value={progress_5} />
-            <CircularProgressWithLabel size={60} value={progress_5} />
+            <CircularProgressWithLabel size={40} value={progress_2} />
+            <CircularProgressWithLabel size={40} value={progress_3} />
+            <CircularProgressWithLabel size={40} value={progress_5} />
+            <CircularProgressWithLabel size={40} value={progress_5} />
           </div>
         </Typography>
       </Container>
