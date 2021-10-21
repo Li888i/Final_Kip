@@ -1,6 +1,5 @@
 import React from "react";
 import { MdDeleteForever } from 'react-icons/md';
-// import './memo.css';
 
 const Note = ( { id, text, date, handleDeleteNote } ) => {
     return(

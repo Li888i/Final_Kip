@@ -7,18 +7,18 @@ const Mypage_memo = () => {
   const [notes, setNotes] = useState([
     {
       id: nanoid(),
-      text: "This is my first note!",
+      text: "나의 첫 공부 메모!",
       date: "2011.01.15",
     },
     {
       id: nanoid(),
-      text: "This is my second note!",
-      date: "2022.10.15",
+      text: "나의 두번 째 공부 메모!",
+      date: "2020.10.15",
     },
     {
       id: nanoid(),
-      text: "This is my third note!",
-      date: "2021.10.15",
+      text: "나의 세번 째 공부 메모!",
+      date: "2021.01.22",
     },
   ]);
 

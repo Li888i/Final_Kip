@@ -23,13 +23,13 @@ const AddNote = ({handleAddNote}) => {
             <textarea
                 rows='8'
                 cols='10'
-                placeholder='Type to add a note...'
+                placeholder='메모 내용을 입력하세요...'
                 value={noteText}
                 onChange={handleChange}
             ></textarea>
             <div className='note-footer'>
-                <small>{characterLimit - noteText.length} Remaining</small>
-                <button className='save' onClick={handleSaveClick}>Save</button>
+                <small>남은 글자 수: {characterLimit - noteText.length}</small>
+                <button className='save' onClick={handleSaveClick}>저장</button>
             </div>
         </div>
     );

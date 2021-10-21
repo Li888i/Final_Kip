@@ -158,29 +158,43 @@ const Help = () => {
     setExpanded(!expanded);
   };
 
+  const nodemailer = require('nodemailer');
+  const email = {
+    host: "smtp.mailtrap.io",
+    port: 2525,
+    auth: {
+      user: "1f7b6c31a85129",
+      pass: "a5251a75e930fa"
+    }
+  };
+  
+  const send = async (option) => {
+    nodemailer.createTransport(email).sendMail(option, (error, info) => {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log(info);
+        return info.response;
+      }
+    });
+  };
+  
+  let email_data = {
+    from: 'wkdgyrud833@naver.com',
+    to: 'wkdgyrud833@naver.com',
+    subject: '졸작 테스트',
+    text: '너에게 닿았니.....?'
+  }
 
+  // send(email_data);
 
   return (
     <div className={classes.email_}>
-      {/* <Typography variant="subtitle1">A 채널: {selectedValue}</Typography><br />
+      <Typography variant="subtitle1">A 채널: {selectedValue}</Typography><br />
       <Button className={classes.but1} variant="outlined" color="primary" onClick={handleClickOpen}>
-        이메일 선택
+        이메일 전송
       </Button>
       <SimpleDialog selectedValue={selectedValue} open={open} onClose={handleClose} />
-      <br></br>
-      <br></br>
-      <button type="button" onClick={handleClick}>
-        {show ? '정답 접기' : '정답 확인'}
-      </button>
-      <div className={classes.alert}>
-        '국물'은 어떻게 발음하나요?
-        {show ? (
-          <Portal container={container.current}>
-            <span>궁물이라고 발음하면 됩니다 ^^</span>
-          </Portal>
-        ) : null}
-      </div>
-      <div className={classes.alert} ref={container} /> */}
       <div>
         <Card className={classes.help_1} sx={{ maxWidth: 365 }}>
           <CardHeader
@@ -225,11 +239,6 @@ const Help = () => {
           </CardActions>
           <Collapse in={expanded} timeout="auto" unmountOnExit>
             <CardContent>
-              {/* <Typography paragraph>Method:</Typography> */}
-              {/* <Typography paragraph>
-              </Typography>
-              <Typography paragraph>
-              </Typography> */}
               <button type="button" onClick={handleClick}>
                 {show ? '정답 접기' : '정답 확인'}
               </button>
